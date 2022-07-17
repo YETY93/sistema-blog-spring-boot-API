@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import co.com.sistema.blog.entidades.Publicacion;
 
-public interface publicacionRepositorioIn extends JpaRepository<Publicacion, Long> {
+public interface PublicacionRepositorioItf extends JpaRepository<Publicacion, Long> {
 
 }
